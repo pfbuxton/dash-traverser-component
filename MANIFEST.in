@@ -1,0 +1,7 @@
+include dash_traverser_component/dash_traverser_component.min.js
+include dash_traverser_component/dash_traverser_component.min.js.map
+include dash_traverser_component/metadata.json
+include dash_traverser_component/package-info.json
+include README.md
+include LICENSE
+include package.json

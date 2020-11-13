@@ -1,0 +1,6 @@
+span.right_bullet{
+    position: absolute;
+    right: 475px;
+    width: 470px;
+    white-space: nowrap;
+}

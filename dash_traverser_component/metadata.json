@@ -1,0 +1,128 @@
+{
+  "src/lib/components/traverser.react.js": {
+    "description": "ExampleComponent is an example component.\nIt takes a property, `label`, and\ndisplays it.\nIt renders an input with the property `value`\nwhich is editable by the user.",
+    "displayName": "traverser",
+    "methods": [
+      {
+        "name": "renderTreeNode",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "nodeData",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "onExpand",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "expandedKeys",
+            "type": null
+          },
+          {
+            "name": "{ expanded, node }",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks"
+      },
+      "checkable": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Adds a Checkbox before the treeNodes (Default - false)",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "multiple": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Allows selecting multiple treeNodes (Default - false)",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "data": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTreeNode"
+        },
+        "required": false,
+        "description": "Tree data",
+        "defaultValue": {
+          "value": "{\n  title: 'Parent',\n  icon: 'd',\n  key: '0',\n  children: [{\n    title: 'Child',\n    icon: 'd',\n    key: '0-0',\n    children: [\n      { title: 'Subchild', key: '0-0-1', icon: 'a', },\n      { title: 'Subchild', key: '0-0-2', icon: 'b' },\n      { title: 'Subchild', key: '0-0-3', icon: 'c' },\n    ],\n  }]\n}",
+          "computed": false
+        }
+      },
+      "checked": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "string"
+          }
+        },
+        "required": false,
+        "description": "List of keys of checked nodes.",
+        "defaultValue": {
+          "value": "[]",
+          "computed": false
+        }
+      },
+      "selected": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "string"
+          }
+        },
+        "required": false,
+        "description": "List of keys of selected nodes.",
+        "defaultValue": {
+          "value": "[]",
+          "computed": false
+        }
+      },
+      "expanded": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "string"
+          }
+        },
+        "required": false,
+        "description": "List of keys of expanded nodes.",
+        "defaultValue": {
+          "value": "[]",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called whenever any of the\nproperties change"
+      }
+    }
+  }
+}

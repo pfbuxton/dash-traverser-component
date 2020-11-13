@@ -1,0 +1,13 @@
+Package: dashTraverserComponent
+Title: A dash component for visulising an MDSplus (https://www.mdsplus.org/) database
+Version: 0.0.1
+Description: A dash component for visulising an MDSplus (https://www.mdsplus.org/) database
+Depends: R (>= 3.0.2)
+Imports: 
+Suggests: 
+License:  + file LICENSE
+URL: https://github.com/pfbuxton/dash-traverser-component
+BugReports: https://github.com/pfbuxton/dash-traverser-component/issues
+Encoding: UTF-8
+LazyData: true
+KeepSource: true

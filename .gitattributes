@@ -1,0 +1,7 @@
+venv/ filter=lfs diff=lfs merge=lfs -text
+deps/ filter=lfs diff=lfs merge=lfs -text
+inst/ filter=lfs diff=lfs merge=lfs -text
+man/ filter=lfs diff=lfs merge=lfs -text
+node_modules/ filter=lfs diff=lfs merge=lfs -text
+R/ filter=lfs diff=lfs merge=lfs -text
+
